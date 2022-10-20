@@ -5,5 +5,5 @@ categories:
   - helper-template
   - action
 
-services:
+apis:
 - code: AdobeAnalyticsSDK
