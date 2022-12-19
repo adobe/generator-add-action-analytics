@@ -1,6 +1,6 @@
 {
   "name": "@adobe/generator-add-action-analytics",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Extensibility template for generating an Adobe Analytics App Builder action",
   "main": "index.js",
   "engines": {
