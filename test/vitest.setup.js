@@ -9,10 +9,9 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-const path = require('path')
-const { stdout, stderr } = require('stdout-stderr')
-
-jest.setTimeout(30000)
+import path from 'node:path'
+import { stdout, stderr } from 'stdout-stderr'
+import { beforeEach, afterEach, expect } from 'vitest'
 
 process.on('unhandledRejection', error => {
   throw error
